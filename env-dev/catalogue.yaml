@@ -1,0 +1,14 @@
+component_name: catalogue
+
+configmap_data:
+  MONGO: "true"
+  MONGO_URL: "mongodb://mongo-dev.santoshpawar.site:27017/catalogue"
+  DB_TYPE: mongo
+  APP_GIT_URL: https://github.com/roboshop-devops-project-v3/catalogue
+  DB_HOST: mongo-dev.santoshpawar.site
+
+schema:
+  enabled: true
+  jobs:
+    - master-data
+  extention: js

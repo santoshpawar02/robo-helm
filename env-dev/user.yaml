@@ -1,0 +1,6 @@
+component_name: user
+
+configmap_data:
+  MONGO: "true"
+  MONGO_URL: "mongodb://mongo-dev.santoshpawar.site:27017/users"
+  REDIS_URL: "redis://redis-dev.santoshpawar.site:6379"
